@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>TCC Responsivo 4TECH</title>
+
+    <?php include("models/conexao.php") ?>
+    
 </head>
 
 <body>
@@ -65,7 +68,7 @@
         <!--==================== HOME ====================-->
         <section class="home" id="home">
             <div class="home__container container grid">
-                <img src="assets/imgs/home.png" alt="" class="home__img">
+                <img src="assets/imgs/frente.jpeg" alt="" class="home__img" style="border-radius: 15px;">
 
                 <div class="home__data">
                     <h1 class="home__title">
@@ -107,9 +110,10 @@
 
             <div class="product__container grid">
                 <article class="product__card">
-                    <img src="assets/imgs/raissa.jpeg" alt="" class="product__img">
+                    <img src="assets/imgs/naka.jpeg" alt="" class="product__img">
                     <h3 class="product__title">Julia Nakayama</h3>
-                    <span class="product__price">Banco de Dados</span>
+                    
+                    <span class="product__price">Maquetista</span>
                     <button class="button--flex product__button">
                         <a href="https://www.instagram.com/julia.nakayama/" target="_blank"><i
                                 class="ri-user-search-line"></i></a>
@@ -119,7 +123,8 @@
                 <article class="product__card">
                     <img src="assets/imgs/joao.jpeg" alt="" class="product__img">
                     <h3 class="product__title">João Vitor</h3>
-                    <span class="product__price">Banco De Dados</span>
+                    <span class="product__price">Web</span>
+                    <span class="product__price">Mobile</span>
                     <button class="button--flex product__button">
                         <a href="https://www.instagram.com/joa.vitinho/" target="_blank"><i
                                 class="ri-user-search-line"></i></a>
@@ -127,7 +132,7 @@
                 </article>
 
                 <article class="product__card">
-                    <img src="assets/imgs/raissa.jpeg" alt="" class="product__img">
+                    <img src="assets/imgs/renan2.jpeg" alt="" class="product__img">
                     <h3 class="product__title">Renan Martins</h3>
                     <span class="product__price">Arduíno</span>
 
@@ -142,6 +147,7 @@
 
                     <h3 class="product__title">Raissa Souza</h3>
                     <span class="product__price">Banco de Dados</span>
+                    <span class="product__price">Arduíno</span>
 
                     <button class="button--flex product__button">
                         <a href="https://www.instagram.com/raixssa_souza/" target="_blank"><i
@@ -390,8 +396,10 @@
             </div>
         </section>
 
+        <!--==================== NOTICES ====================-->
 
 
+        
         <!--==================== FOOTER ====================-->
         <footer class="footer section">
             <div class="footer__container container grid">
@@ -409,8 +417,8 @@
                     <h3 class="footer__title">Nosso Endereço</h3>
 
                     <ul class="footer__data">
-                        <li class="footer__information">AAAAAAAAAAAAAAA</li>
-                        <li class="footer__information">bla bla bla</li>
+                        <li class="footer__information">Rua Valdemar Lopes</li>
+                        <li class="footer__information">xxx</li>
                         <li class="footer__information">123-456-789</li>
                     </ul>
                 </div>
